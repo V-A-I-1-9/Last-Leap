@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Study Assistant</title>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        // console.log("Attempting to initialize Google Translate Element..."); // Debug log
+        if (document.getElementById('google_translate_element')) {
+          new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,kn,hi', // English, Kannada, Hindi
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: true // Let Google display its widget
+          }, 'google_translate_element'); // Target ID
+          // console.log("Google Translate Element initialized or re-initialized."); // Debug log
+        } else {
+          // console.warn("Target div 'google_translate_element' not found when googleTranslateElementInit was called."); // Debug log
+        }
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?onload=googleTranslateElementInit"></script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
