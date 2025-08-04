@@ -4,7 +4,8 @@
 
 This application is built with a React frontend and a Python Flask backend, providing a seamless and feature-rich user experience.
 
-*(Screenshot placeholder: A preview of the main application dashboard showing generated notes, videos, and action buttons.)*
+<img width="1188" height="875" alt="image" src="https://github.com/user-attachments/assets/54515b55-0f54-46cc-b25e-a6d8f39ed3bb" />
+
 
 ---
 
