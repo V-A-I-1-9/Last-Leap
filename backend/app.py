@@ -47,7 +47,7 @@ if not YOUTUBE_API_KEY:
 # --- Initialize Services ---
 # Configure Gemini client
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel('gemini-1.5-flash') # Or 'gemini-pro'
+gemini_model = genai.GenerativeModel('gemini-2.5-flash') # Or 'gemini-pro'
 
 # Function to build YouTube service (avoids building it globally)
 def get_youtube_service():
